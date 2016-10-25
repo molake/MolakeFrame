@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493784F81DBEFA4F00224F8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 493784F71DBEFA4F00224F8B /* main.m */; };
+		493784FB1DBEFA4F00224F8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 493784FA1DBEFA4F00224F8B /* AppDelegate.m */; };
+		493784FE1DBEFA4F00224F8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493784FD1DBEFA4F00224F8B /* ViewController.m */; };
+		493785011DBEFA4F00224F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493784FF1DBEFA4F00224F8B /* Main.storyboard */; };
+		493785031DBEFA4F00224F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493785021DBEFA4F00224F8B /* Assets.xcassets */; };
+		493785061DBEFA4F00224F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493785041DBEFA4F00224F8B /* LaunchScreen.storyboard */; };
+		493785111DBEFA4F00224F8B /* MolakeFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493785101DBEFA4F00224F8B /* MolakeFrameTests.m */; };
+		4937851C1DBEFA4F00224F8B /* MolakeFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4937851B1DBEFA4F00224F8B /* MolakeFrameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4937850D1DBEFA4F00224F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 493784EB1DBEFA4F00224F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493784F21DBEFA4F00224F8B;
+			remoteInfo = MolakeFrame;
+		};
+		493785181DBEFA4F00224F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 493784EB1DBEFA4F00224F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493784F21DBEFA4F00224F8B;
+			remoteInfo = MolakeFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		493784F31DBEFA4F00224F8B /* MolakeFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MolakeFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		493784F71DBEFA4F00224F8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		493784F91DBEFA4F00224F8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		493784FA1DBEFA4F00224F8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		493784FC1DBEFA4F00224F8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		493784FD1DBEFA4F00224F8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		493785001DBEFA4F00224F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		493785021DBEFA4F00224F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		493785051DBEFA4F00224F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		493785071DBEFA4F00224F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4937850C1DBEFA4F00224F8B /* MolakeFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolakeFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		493785101DBEFA4F00224F8B /* MolakeFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MolakeFrameTests.m; sourceTree = "<group>"; };
+		493785121DBEFA4F00224F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493785171DBEFA4F00224F8B /* MolakeFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolakeFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4937851B1DBEFA4F00224F8B /* MolakeFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MolakeFrameUITests.m; sourceTree = "<group>"; };
+		4937851D1DBEFA4F00224F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		493784F01DBEFA4F00224F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493785091DBEFA4F00224F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493785141DBEFA4F00224F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		493784EA1DBEFA4F00224F8B = {
+			isa = PBXGroup;
+			children = (
+				493784F51DBEFA4F00224F8B /* MolakeFrame */,
+				4937850F1DBEFA4F00224F8B /* MolakeFrameTests */,
+				4937851A1DBEFA4F00224F8B /* MolakeFrameUITests */,
+				493784F41DBEFA4F00224F8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		493784F41DBEFA4F00224F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				493784F31DBEFA4F00224F8B /* MolakeFrame.app */,
+				4937850C1DBEFA4F00224F8B /* MolakeFrameTests.xctest */,
+				493785171DBEFA4F00224F8B /* MolakeFrameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		493784F51DBEFA4F00224F8B /* MolakeFrame */ = {
+			isa = PBXGroup;
+			children = (
+				493784F91DBEFA4F00224F8B /* AppDelegate.h */,
+				493784FA1DBEFA4F00224F8B /* AppDelegate.m */,
+				493784FC1DBEFA4F00224F8B /* ViewController.h */,
+				493784FD1DBEFA4F00224F8B /* ViewController.m */,
+				493784FF1DBEFA4F00224F8B /* Main.storyboard */,
+				493785021DBEFA4F00224F8B /* Assets.xcassets */,
+				493785041DBEFA4F00224F8B /* LaunchScreen.storyboard */,
+				493785071DBEFA4F00224F8B /* Info.plist */,
+				493784F61DBEFA4F00224F8B /* Supporting Files */,
+			);
+			path = MolakeFrame;
+			sourceTree = "<group>";
+		};
+		493784F61DBEFA4F00224F8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				493784F71DBEFA4F00224F8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4937850F1DBEFA4F00224F8B /* MolakeFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				493785101DBEFA4F00224F8B /* MolakeFrameTests.m */,
+				493785121DBEFA4F00224F8B /* Info.plist */,
+			);
+			path = MolakeFrameTests;
+			sourceTree = "<group>";
+		};
+		4937851A1DBEFA4F00224F8B /* MolakeFrameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4937851B1DBEFA4F00224F8B /* MolakeFrameUITests.m */,
+				4937851D1DBEFA4F00224F8B /* Info.plist */,
+			);
+			path = MolakeFrameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		493784F21DBEFA4F00224F8B /* MolakeFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493785201DBEFA4F00224F8B /* Build configuration list for PBXNativeTarget "MolakeFrame" */;
+			buildPhases = (
+				493784EF1DBEFA4F00224F8B /* Sources */,
+				493784F01DBEFA4F00224F8B /* Frameworks */,
+				493784F11DBEFA4F00224F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MolakeFrame;
+			productName = MolakeFrame;
+			productReference = 493784F31DBEFA4F00224F8B /* MolakeFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4937850B1DBEFA4F00224F8B /* MolakeFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493785231DBEFA4F00224F8B /* Build configuration list for PBXNativeTarget "MolakeFrameTests" */;
+			buildPhases = (
+				493785081DBEFA4F00224F8B /* Sources */,
+				493785091DBEFA4F00224F8B /* Frameworks */,
+				4937850A1DBEFA4F00224F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4937850E1DBEFA4F00224F8B /* PBXTargetDependency */,
+			);
+			name = MolakeFrameTests;
+			productName = MolakeFrameTests;
+			productReference = 4937850C1DBEFA4F00224F8B /* MolakeFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		493785161DBEFA4F00224F8B /* MolakeFrameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493785261DBEFA4F00224F8B /* Build configuration list for PBXNativeTarget "MolakeFrameUITests" */;
+			buildPhases = (
+				493785131DBEFA4F00224F8B /* Sources */,
+				493785141DBEFA4F00224F8B /* Frameworks */,
+				493785151DBEFA4F00224F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				493785191DBEFA4F00224F8B /* PBXTargetDependency */,
+			);
+			name = MolakeFrameUITests;
+			productName = MolakeFrameUITests;
+			productReference = 493785171DBEFA4F00224F8B /* MolakeFrameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		493784EB1DBEFA4F00224F8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = molake;
+				TargetAttributes = {
+					493784F21DBEFA4F00224F8B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YTFVZ954PH;
+					};
+					4937850B1DBEFA4F00224F8B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YTFVZ954PH;
+						TestTargetID = 493784F21DBEFA4F00224F8B;
+					};
+					493785161DBEFA4F00224F8B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YTFVZ954PH;
+						TestTargetID = 493784F21DBEFA4F00224F8B;
+					};
+				};
+			};
+			buildConfigurationList = 493784EE1DBEFA4F00224F8B /* Build configuration list for PBXProject "MolakeFrame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 493784EA1DBEFA4F00224F8B;
+			productRefGroup = 493784F41DBEFA4F00224F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				493784F21DBEFA4F00224F8B /* MolakeFrame */,
+				4937850B1DBEFA4F00224F8B /* MolakeFrameTests */,
+				493785161DBEFA4F00224F8B /* MolakeFrameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		493784F11DBEFA4F00224F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493785061DBEFA4F00224F8B /* LaunchScreen.storyboard in Resources */,
+				493785031DBEFA4F00224F8B /* Assets.xcassets in Resources */,
+				493785011DBEFA4F00224F8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4937850A1DBEFA4F00224F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493785151DBEFA4F00224F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		493784EF1DBEFA4F00224F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493784FE1DBEFA4F00224F8B /* ViewController.m in Sources */,
+				493784FB1DBEFA4F00224F8B /* AppDelegate.m in Sources */,
+				493784F81DBEFA4F00224F8B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493785081DBEFA4F00224F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493785111DBEFA4F00224F8B /* MolakeFrameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493785131DBEFA4F00224F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4937851C1DBEFA4F00224F8B /* MolakeFrameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4937850E1DBEFA4F00224F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 493784F21DBEFA4F00224F8B /* MolakeFrame */;
+			targetProxy = 4937850D1DBEFA4F00224F8B /* PBXContainerItemProxy */;
+		};
+		493785191DBEFA4F00224F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 493784F21DBEFA4F00224F8B /* MolakeFrame */;
+			targetProxy = 493785181DBEFA4F00224F8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		493784FF1DBEFA4F00224F8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				493785001DBEFA4F00224F8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		493785041DBEFA4F00224F8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				493785051DBEFA4F00224F8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4937851E1DBEFA4F00224F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4937851F1DBEFA4F00224F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		493785211DBEFA4F00224F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MolakeFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		493785221DBEFA4F00224F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MolakeFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		493785241DBEFA4F00224F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MolakeFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MolakeFrame.app/MolakeFrame";
+			};
+			name = Debug;
+		};
+		493785251DBEFA4F00224F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MolakeFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MolakeFrame.app/MolakeFrame";
+			};
+			name = Release;
+		};
+		493785271DBEFA4F00224F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MolakeFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MolakeFrame;
+			};
+			name = Debug;
+		};
+		493785281DBEFA4F00224F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MolakeFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MolakeFrame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		493784EE1DBEFA4F00224F8B /* Build configuration list for PBXProject "MolakeFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4937851E1DBEFA4F00224F8B /* Debug */,
+				4937851F1DBEFA4F00224F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493785201DBEFA4F00224F8B /* Build configuration list for PBXNativeTarget "MolakeFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493785211DBEFA4F00224F8B /* Debug */,
+				493785221DBEFA4F00224F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		493785231DBEFA4F00224F8B /* Build configuration list for PBXNativeTarget "MolakeFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493785241DBEFA4F00224F8B /* Debug */,
+				493785251DBEFA4F00224F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		493785261DBEFA4F00224F8B /* Build configuration list for PBXNativeTarget "MolakeFrameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493785271DBEFA4F00224F8B /* Debug */,
+				493785281DBEFA4F00224F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 493784EB1DBEFA4F00224F8B /* Project object */;
+}

@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4CD995DC4E9469C43680B0 /* libPods-MolakeFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C23CD9FB0AEF585BFABA0DE /* libPods-MolakeFrame.a */; };
 		493784F81DBEFA4F00224F8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 493784F71DBEFA4F00224F8B /* main.m */; };
 		493784FB1DBEFA4F00224F8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 493784FA1DBEFA4F00224F8B /* AppDelegate.m */; };
 		493784FE1DBEFA4F00224F8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493784FD1DBEFA4F00224F8B /* ViewController.m */; };
 		493785011DBEFA4F00224F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493784FF1DBEFA4F00224F8B /* Main.storyboard */; };
 		493785031DBEFA4F00224F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493785021DBEFA4F00224F8B /* Assets.xcassets */; };
-		493785061DBEFA4F00224F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493785041DBEFA4F00224F8B /* LaunchScreen.storyboard */; };
 		493785111DBEFA4F00224F8B /* MolakeFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493785101DBEFA4F00224F8B /* MolakeFrameTests.m */; };
 		4937851C1DBEFA4F00224F8B /* MolakeFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4937851B1DBEFA4F00224F8B /* MolakeFrameUITests.m */; };
+		497D03E91DC07EA7004C3ECB /* qidong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 497D03E61DC07EA7004C3ECB /* qidong.mp4 */; };
+		497D03EA1DC07EA7004C3ECB /* WSMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 497D03E81DC07EA7004C3ECB /* WSMovieController.m */; };
+		497D03EC1DC0817F004C3ECB /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497D03EB1DC0817F004C3ECB /* Launch.storyboard */; };
+		49C2EEF91DC0730900426A0C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 49C2EEF81DC0730900426A0C /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C23CD9FB0AEF585BFABA0DE /* libPods-MolakeFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MolakeFrame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		493784F31DBEFA4F00224F8B /* MolakeFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MolakeFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493784F71DBEFA4F00224F8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		493784F91DBEFA4F00224F8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +48,6 @@
 		493784FD1DBEFA4F00224F8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		493785001DBEFA4F00224F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		493785021DBEFA4F00224F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		493785051DBEFA4F00224F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		493785071DBEFA4F00224F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4937850C1DBEFA4F00224F8B /* MolakeFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolakeFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493785101DBEFA4F00224F8B /* MolakeFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MolakeFrameTests.m; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		493785171DBEFA4F00224F8B /* MolakeFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolakeFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4937851B1DBEFA4F00224F8B /* MolakeFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MolakeFrameUITests.m; sourceTree = "<group>"; };
 		4937851D1DBEFA4F00224F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497D03E61DC07EA7004C3ECB /* qidong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qidong.mp4; sourceTree = "<group>"; };
+		497D03E71DC07EA7004C3ECB /* WSMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSMovieController.h; path = ../WSMovieController.h; sourceTree = "<group>"; };
+		497D03E81DC07EA7004C3ECB /* WSMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSMovieController.m; path = ../WSMovieController.m; sourceTree = "<group>"; };
+		497D03EB1DC0817F004C3ECB /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		49C2EEF81DC0730900426A0C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C4050E89B71DE5F2076C31C /* Pods-MolakeFrame.debug test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MolakeFrame.debug test.xcconfig"; path = "Pods/Target Support Files/Pods-MolakeFrame/Pods-MolakeFrame.debug test.xcconfig"; sourceTree = "<group>"; };
+		8FD9AACF227D1BF31CA62323 /* Pods-MolakeFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MolakeFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-MolakeFrame/Pods-MolakeFrame.release.xcconfig"; sourceTree = "<group>"; };
+		FC31738DAA003F0D25E15B20 /* Pods-MolakeFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MolakeFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MolakeFrame/Pods-MolakeFrame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4CD995DC4E9469C43680B0 /* libPods-MolakeFrame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +94,14 @@
 		493784EA1DBEFA4F00224F8B = {
 			isa = PBXGroup;
 			children = (
+				497D03E61DC07EA7004C3ECB /* qidong.mp4 */,
+				49C2EEF81DC0730900426A0C /* Podfile */,
 				493784F51DBEFA4F00224F8B /* MolakeFrame */,
 				4937850F1DBEFA4F00224F8B /* MolakeFrameTests */,
 				4937851A1DBEFA4F00224F8B /* MolakeFrameUITests */,
 				493784F41DBEFA4F00224F8B /* Products */,
+				4CD0D45146D3C7250ED20E6F /* Pods */,
+				F876723A9C157822008F46F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +120,13 @@
 			children = (
 				493784F91DBEFA4F00224F8B /* AppDelegate.h */,
 				493784FA1DBEFA4F00224F8B /* AppDelegate.m */,
+				497D03E71DC07EA7004C3ECB /* WSMovieController.h */,
+				497D03E81DC07EA7004C3ECB /* WSMovieController.m */,
 				493784FC1DBEFA4F00224F8B /* ViewController.h */,
 				493784FD1DBEFA4F00224F8B /* ViewController.m */,
 				493784FF1DBEFA4F00224F8B /* Main.storyboard */,
 				493785021DBEFA4F00224F8B /* Assets.xcassets */,
-				493785041DBEFA4F00224F8B /* LaunchScreen.storyboard */,
+				497D03EB1DC0817F004C3ECB /* Launch.storyboard */,
 				493785071DBEFA4F00224F8B /* Info.plist */,
 				493784F61DBEFA4F00224F8B /* Supporting Files */,
 			);
@@ -140,6 +159,24 @@
 			path = MolakeFrameUITests;
 			sourceTree = "<group>";
 		};
+		4CD0D45146D3C7250ED20E6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC31738DAA003F0D25E15B20 /* Pods-MolakeFrame.debug.xcconfig */,
+				8FD9AACF227D1BF31CA62323 /* Pods-MolakeFrame.release.xcconfig */,
+				7C4050E89B71DE5F2076C31C /* Pods-MolakeFrame.debug test.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F876723A9C157822008F46F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C23CD9FB0AEF585BFABA0DE /* libPods-MolakeFrame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 493785201DBEFA4F00224F8B /* Build configuration list for PBXNativeTarget "MolakeFrame" */;
 			buildPhases = (
+				ECA75D39560C5AD0A676039C /* 📦 Check Pods Manifest.lock */,
 				493784EF1DBEFA4F00224F8B /* Sources */,
 				493784F01DBEFA4F00224F8B /* Frameworks */,
 				493784F11DBEFA4F00224F8B /* Resources */,
+				C882906E25827A7DBABD093A /* 📦 Embed Pods Frameworks */,
+				8A23F7A4F94B5B5F2F18F1F3 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +286,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				493785061DBEFA4F00224F8B /* LaunchScreen.storyboard in Resources */,
 				493785031DBEFA4F00224F8B /* Assets.xcassets in Resources */,
+				49C2EEF91DC0730900426A0C /* Podfile in Resources */,
 				493785011DBEFA4F00224F8B /* Main.storyboard in Resources */,
+				497D03E91DC07EA7004C3ECB /* qidong.mp4 in Resources */,
+				497D03EC1DC0817F004C3ECB /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,11 +310,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A23F7A4F94B5B5F2F18F1F3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MolakeFrame/Pods-MolakeFrame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C882906E25827A7DBABD093A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MolakeFrame/Pods-MolakeFrame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECA75D39560C5AD0A676039C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		493784EF1DBEFA4F00224F8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497D03EA1DC07EA7004C3ECB /* WSMovieController.m in Sources */,
 				493784FE1DBEFA4F00224F8B /* ViewController.m in Sources */,
 				493784FB1DBEFA4F00224F8B /* AppDelegate.m in Sources */,
 				493784F81DBEFA4F00224F8B /* main.m in Sources */,
@@ -317,14 +408,6 @@
 				493785001DBEFA4F00224F8B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		493785041DBEFA4F00224F8B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				493785051DBEFA4F00224F8B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,23 +497,33 @@
 		};
 		493785211DBEFA4F00224F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC31738DAA003F0D25E15B20 /* Pods-MolakeFrame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = MolakeFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		493785221DBEFA4F00224F8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD9AACF227D1BF31CA62323 /* Pods-MolakeFrame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MolakeFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -480,6 +573,89 @@
 			};
 			name = Release;
 		};
+		4946EF5D1DC196A100F41B57 /* Debug test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug test";
+		};
+		4946EF5E1DC196A100F41B57 /* Debug test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4050E89B71DE5F2076C31C /* Pods-MolakeFrame.debug test.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = MolakeFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = "Debug test";
+		};
+		4946EF5F1DC196A100F41B57 /* Debug test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MolakeFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MolakeFrame.app/MolakeFrame";
+			};
+			name = "Debug test";
+		};
+		4946EF601DC196A100F41B57 /* Debug test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MolakeFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.MolakeFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MolakeFrame;
+			};
+			name = "Debug test";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -487,34 +663,41 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4937851E1DBEFA4F00224F8B /* Debug */,
+				4946EF5D1DC196A100F41B57 /* Debug test */,
 				4937851F1DBEFA4F00224F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		493785201DBEFA4F00224F8B /* Build configuration list for PBXNativeTarget "MolakeFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				493785211DBEFA4F00224F8B /* Debug */,
+				4946EF5E1DC196A100F41B57 /* Debug test */,
 				493785221DBEFA4F00224F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		493785231DBEFA4F00224F8B /* Build configuration list for PBXNativeTarget "MolakeFrameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				493785241DBEFA4F00224F8B /* Debug */,
+				4946EF5F1DC196A100F41B57 /* Debug test */,
 				493785251DBEFA4F00224F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		493785261DBEFA4F00224F8B /* Build configuration list for PBXNativeTarget "MolakeFrameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				493785271DBEFA4F00224F8B /* Debug */,
+				4946EF601DC196A100F41B57 /* Debug test */,
 				493785281DBEFA4F00224F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

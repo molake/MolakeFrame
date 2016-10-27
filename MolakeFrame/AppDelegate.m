@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Bugtags/Bugtags.h>
+#import "WSMovieController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Bugtags startWithAppKey:@"c99d75fae7cbf462fd872e4e3e6b21ae" invocationEvent:BTGInvocationEventBubble];
+    
+//    BOOL isFirstLogin = [[[NSUserDefaults standardUserDefaults] objectForKey:@"isFirstLogin"] boolValue];
+//    if (!isFirstLogin) {
+        //是第一次
+    WSMovieController *wsCtrl = [[UIStoryboard storyboardWithName:@"Launch" bundle:nil] instantiateViewControllerWithIdentifier:@"Launch"];
+    
+    
+       // WSMovieController *wsCtrl = [[WSMovieController alloc]init];
+        wsCtrl.movieURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"qidong"ofType:@"mp4"]];
+        self.window.rootViewController = wsCtrl;
+        [[NSUserDefaults standardUserDefaults] setObject:@"YES" forKey:@"isFirstLogin"];
+//    }else{
+//        //不是首次启动
+//        UIViewController *viewCtrl = [[UIViewController alloc]init];
+//        self.window.rootViewController = viewCtrl;
+//    }
     return YES;
 }
 

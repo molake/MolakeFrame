@@ -24,7 +24,7 @@
 //    BOOL isFirstLogin = [[[NSUserDefaults standardUserDefaults] objectForKey:@"isFirstLogin"] boolValue];
 //    if (!isFirstLogin) {
         //是第一次
-    WSMovieController *wsCtrl = [[UIStoryboard storyboardWithName:@"Launch" bundle:nil] instantiateViewControllerWithIdentifier:@"Launch"];
+        WSMovieController *wsCtrl = [[UIStoryboard storyboardWithName:@"Launch" bundle:nil] instantiateViewControllerWithIdentifier:@"Launch"];
     
     
        // WSMovieController *wsCtrl = [[WSMovieController alloc]init];
@@ -36,6 +36,12 @@
 //        UIViewController *viewCtrl = [[UIViewController alloc]init];
 //        self.window.rootViewController = viewCtrl;
 //    }
+    
+    
+    
+    
+    
+    
     return YES;
 }
 
